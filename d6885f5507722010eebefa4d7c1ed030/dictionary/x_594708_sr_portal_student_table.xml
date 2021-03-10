@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?><database>
+    <element label="student_table" max_length="40" name="x_594708_sr_portal_student_table" sizeclass="2" type="collection">
+        <element attributes="edge_encryption_enabled=true" label="Branch" max_length="40" name="branch" type="string"/>
+        <element label="Mobile num" max_length="40" name="mobile_num" type="phone_number_e164"/>
+        <element attributes="edge_encryption_enabled=true" default="javascript:global.getNextObjNumberPadded();" label="Number" max_length="40" name="number" type="string"/>
+        <element label="Roll no" max_length="40" name="roll_no" type="integer"/>
+        <element attributes="edge_encryption_enabled=true" label="st name" max_length="40" name="st_name" type="string"/>
+    </element>
+</database>
